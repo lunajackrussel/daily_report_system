@@ -36,6 +36,8 @@ public class ReportsShowServlet extends HttpServlet {
 
         Report r = em.find(Report.class, Integer.parseInt(request.getParameter("id")));
 
+
+
         em.close();
 
         request.setAttribute("report", r);

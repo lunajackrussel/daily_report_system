@@ -116,11 +116,11 @@ table#report_list th {
 }
 
 table#report_list .report_name {
-    width: 20%;
+    width: 15%;
     padding: 10px 2%;
 }
 table#report_list .report_date {
-    width: 20%;
+    width: 15%;
 }
 
 table#report_list .report_title {
@@ -129,6 +129,9 @@ table#report_list .report_title {
 
 table#report_list .report_action {
     width: 13%;
+}
+table#report_list .report_feedback {
+	width: 13%;
 }
 pre {
     font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
