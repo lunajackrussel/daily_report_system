@@ -1,7 +1,6 @@
 package controllers.reports;
 
 import java.io.IOException;
-
 import javax.persistence.EntityManager;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
